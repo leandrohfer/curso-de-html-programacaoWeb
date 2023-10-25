@@ -1,2 +1,2 @@
-# html-course-ProgramacaoWeb
- Exercícios de HTML das aulas do canal <Programação Web> do Youtube || HTML exercises from the <Web Programming> Youtube channel
+# Curso de HTML do Professor Dimitri - Canal Programação Web
+ Minhas anotações e exemplos pessoais sobre o curso de HTML do Professor Dimitri - [Canal Programação Web](https://www.youtube.com/@programacaoweb).
