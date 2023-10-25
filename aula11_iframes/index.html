@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Leandro Henrique" />
+
+    <title>Aula 11 | Iframes</title>
+</head>
+
+<body>
+    <h1>Página Principal</h1>
+    <p>Seja bem vindo à página de testes.</p>
+
+    <hr>
+    <a href="https://todoist.com/" target="meu-iframe">Página Leandro</a>
+    <hr>
+    <!-- 
+        A tag <iframe> consiste em inserir uma página dentro de outra.
+
+        Também possui os atributos src, width e height similares a tag <img>.
+    -->
+    <iframe src="equipe/leandro.html" style="border:none;" width="100%" height="400" title="Meu Iframe"></iframe>
+    <br>
+
+    <!-- 
+        É possível apontar o target de uma tag <a> para um Iframe na própria tela inserindo o name do Iframe
+        no atributo target da tag <a>.
+    -->
+    <iframe src="" style="border:none;" name="meu-iframe" width="100%" height="600" title="Iframe de Exemplo"></iframe>
+
+
+    <!-- Exemplo de inserir um vídeo do youtube como iframe
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/448sdzWsnMs?si=m4FIGSaPo-I9MCL_"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe> 
+    -->
+</body>
+
+</html>
