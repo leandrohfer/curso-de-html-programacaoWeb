@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+</head>
+<body>
+    <h1>Página de Áudio</h1>
+
+    <!-- 
+        A tag <audio> é responsável pela inserção de áudios no corpo do código,
+        ela é a tag pai. Dentro dela, tem-se a tag <source>, na qual é indicado
+        a fonte do áudio (caminho relativo, link da web, etc) no atributo src e
+        o tipo do áudio no atributo type (audio/mpeg, audio/ogg, audio/wav).
+
+        O elemento audio só exibido por completo na tela se for inserido o atributo
+        controls no corpo da declaração da tag <audio>.
+
+        Por padrão, no elemento áudio (a depender do navegador) vem a opção de
+        realizar download e de acelerar o áudio.
+
+        Para remover a opção de download, utiliza-se o atributo controlsList
+        inserindo "nodownload" no mesmo. Dessa maneira ficará disponível para o
+        usuário apenas a opção de alterar a velocidade de reprodução do áudio.
+     -->
+    <h2>Áudio de teste 1</h2>
+    <audio controls controlsList="nodownload">
+        <source src="teste_audio1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 
+        Essa tag de áudio geralmente é utilizada para audiodescrição e podcasts em
+        blogs.
+     -->
+    <h2>Áudio de teste 2</h2>
+    <audio controls>
+        <source src="teste_audio2.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
